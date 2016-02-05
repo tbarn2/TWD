@@ -1,5 +1,5 @@
 jQuery("#simulation")
-  .on("click", ".s-7c8750f8-7f4c-462d-92ea-d67090748d98 .click", function(event, data) {
+  .on("click", ".s-7e6a8122-15c7-4755-9322-f387eb6e2486 .click", function(event, data) {
     var jEvent, jFirer, cases;
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
@@ -27,7 +27,7 @@ jQuery("#simulation")
       ];
       event.data = data;
       jEvent.launchCases(cases);
-    } else if(jFirer.is("#s-Text_1")) {
+    } else if(jFirer.is("#s-Text_6")) {
       cases = [
         {
           "blocks": [
@@ -50,7 +50,7 @@ jQuery("#simulation")
       ];
       event.data = data;
       jEvent.launchCases(cases);
-    } else if(jFirer.is("#s-Text_2")) {
+    } else if(jFirer.is("#s-Text_7")) {
       cases = [
         {
           "blocks": [
@@ -73,7 +73,7 @@ jQuery("#simulation")
       ];
       event.data = data;
       jEvent.launchCases(cases);
-    } else if(jFirer.is("#s-Text_3")) {
+    } else if(jFirer.is("#s-Text_8")) {
       cases = [
         {
           "blocks": [
@@ -96,7 +96,7 @@ jQuery("#simulation")
       ];
       event.data = data;
       jEvent.launchCases(cases);
-    } else if(jFirer.is("#s-Text_4")) {
+    } else if(jFirer.is("#s-Text_9")) {
       cases = [
         {
           "blocks": [
@@ -119,7 +119,7 @@ jQuery("#simulation")
       ];
       event.data = data;
       jEvent.launchCases(cases);
-    } else if(jFirer.is("#s-Text_5")) {
+    } else if(jFirer.is("#s-Text_10")) {
       cases = [
         {
           "blocks": [
@@ -129,6 +129,29 @@ jQuery("#simulation")
                   "action": "jimNavigation",
                   "parameter": {
                     "target": "screens/7c8750f8-7f4c-462d-92ea-d67090748d98"
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Rectangle_3")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/7fb59c99-e9a2-4b55-b599-a339069e412e"
                   },
                   "exectype": "serial",
                   "delay": 0

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), 
+       url("../fonts/Roboto-Regular.woff") format("woff"), 
+       url("../fonts/Roboto-Regular.ttf")  format("truetype"),
+       url("../fonts/Roboto-Regular.svg#svgFontName") format("svg");
+}
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: url("../fonts/PermanentMarker-Regular.eot?#iefix") format("embedded-opentype"), 
+       url("../fonts/PermanentMarker-Regular.woff") format("woff"), 
+       url("../fonts/PermanentMarker-Regular.ttf")  format("truetype"),
+       url("../fonts/PermanentMarker-Regular.svg#svgFontName") format("svg");
+}

@@ -1,5 +1,5 @@
 jQuery("#simulation")
-  .on("click", ".s-9a334326-6d99-4385-a8d1-420b809fc011 .click", function(event, data) {
+  .on("click", ".s-1f1ddf36-7a8e-4450-9ca0-52c2238e3ea7 .click", function(event, data) {
     var jEvent, jFirer, cases;
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
@@ -142,7 +142,7 @@ jQuery("#simulation")
       ];
       event.data = data;
       jEvent.launchCases(cases);
-    } else if(jFirer.is("#s-Tree_node_5")) {
+    } else if(jFirer.is("#s-Text_8")) {
       cases = [
         {
           "blocks": [
@@ -151,7 +151,76 @@ jQuery("#simulation")
                 {
                   "action": "jimNavigation",
                   "parameter": {
-                    "target": "screens/76ec98cd-3a2a-4b24-96a6-2f7e9aa82f29"
+                    "target": "screens/a75d9a3d-2de6-442a-ab1c-18913ce22956"
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Text_9")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/6a7d6a3e-eea4-40b3-ae5b-562d43cc467b"
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Rectangle_5")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimHide",
+                  "parameter": {
+                    "target": "#s-Rectangle_5"
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Button_8")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/f4151ac9-422e-4e20-82dd-cba943274bfb"
                   },
                   "exectype": "serial",
                   "delay": 0

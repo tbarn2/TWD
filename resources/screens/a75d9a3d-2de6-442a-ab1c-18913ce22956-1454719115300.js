@@ -1,5 +1,5 @@
 jQuery("#simulation")
-  .on("click", ".s-7fb59c99-e9a2-4b55-b599-a339069e412e .click", function(event, data) {
+  .on("click", ".s-a75d9a3d-2de6-442a-ab1c-18913ce22956 .click", function(event, data) {
     var jEvent, jFirer, cases;
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
@@ -142,7 +142,7 @@ jQuery("#simulation")
       ];
       event.data = data;
       jEvent.launchCases(cases);
-    } else if(jFirer.is("#s-Tree_node_5")) {
+    } else if(jFirer.is("#s-Button_8")) {
       cases = [
         {
           "blocks": [
@@ -151,7 +151,7 @@ jQuery("#simulation")
                 {
                   "action": "jimNavigation",
                   "parameter": {
-                    "target": "screens/76ec98cd-3a2a-4b24-96a6-2f7e9aa82f29"
+                    "target": "screens/f4151ac9-422e-4e20-82dd-cba943274bfb"
                   },
                   "exectype": "serial",
                   "delay": 0

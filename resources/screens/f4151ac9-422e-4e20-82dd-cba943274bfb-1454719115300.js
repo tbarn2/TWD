@@ -1,5 +1,5 @@
 jQuery("#simulation")
-  .on("click", ".s-1f1ddf36-7a8e-4450-9ca0-52c2238e3ea7 .click", function(event, data) {
+  .on("click", ".s-f4151ac9-422e-4e20-82dd-cba943274bfb .click", function(event, data) {
     var jEvent, jFirer, cases;
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
@@ -129,6 +129,29 @@ jQuery("#simulation")
                   "action": "jimNavigation",
                   "parameter": {
                     "target": "screens/7c8750f8-7f4c-462d-92ea-d67090748d98"
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Rectangle_4")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/f4151ac9-422e-4e20-82dd-cba943274bfb"
                   },
                   "exectype": "serial",
                   "delay": 0
